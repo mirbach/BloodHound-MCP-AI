@@ -1,0 +1,15 @@
+{
+    "servers": {
+            "BloodHound-MCP": {
+            "command": "python",
+            "args": [
+                "${workspaceFolder}/BloodHound-MCP.py"
+            ],
+            "env": {
+                "BLOODHOUND_URI": "bolt://localhost:7687",
+                "BLOODHOUND_USERNAME": "neo4j",
+                "BLOODHOUND_PASSWORD": "bloodhoundcommunityedition"
+            }
+        }
+    }
+}
